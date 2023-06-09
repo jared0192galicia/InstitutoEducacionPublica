@@ -126,13 +126,40 @@ main {
     grid-row-end: 12;
 }
 
-.img-perfil {
+.container-img-perfil {
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
+}
+.container-img-perfil h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container-img-perfil p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.img-perfil {
+    max-width: 20vw;
+    max-height: 20vw;
+    margin: 0vw 2.5vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
+.container-img-perfil .info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-img-perfil .info > i {
+    display: inline-block;
+    margin: 1vw 0 0 0;
+    /* color: red; */
+}
 .elem-grid:last-of-type {
     grid-column-start: 11;
     grid-column-end: 13;
