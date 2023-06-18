@@ -14,18 +14,16 @@ html {
 }
 
 /* Nav */
-nav {
+nav  {
     background-color: var(--bk-header);
+    position: sticky;
+    top: -17vw;
 }
 
 .menu-hambur {
     display: none;
 }
 
-.ul-nav {
-    position: sticky;
-    top: 0;
-}
 
 .container-logo-nav {
     min-width: 95vw;
@@ -111,8 +109,71 @@ main {
     height: 100vh;
 }
 
+/* MAIN */
+main {
+    display: grid;
+    margin-top: 10vw;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 200vh;
+}
+
+.elem-grid:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid darkcyan;
+    grid-row-start: 1;
+    grid-row-end: 12;
+}
+
+.container-img-perfil {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.container-img-perfil h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container-img-perfil p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.img-perfil {
+    max-width: 20vw;
+    max-height: 20vw;
+    margin: 0vw 2.5vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.container-img-perfil .info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-img-perfil .info > i {
+    display: inline-block;
+    margin: 1vw 0 0 0;
+    /* color: red; */
+}
+.elem-grid:last-of-type {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    border: 1px solid darkcyan;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    
+}
 /* FOOTER */
 
+.img-perfil {
+    border-radius: 10px;
+    border: 1px solid black;
+}
 
 footer {
     background-color: var(--bk-header);
@@ -190,27 +251,7 @@ footer img {
         font-size: 1.8rem;
     }
 
-    div .text-university h1 {
-        font-size: 4.4rem;
-    }
-
-    div .text-university h3 {
-        font-size: 3rem;
-    }
-
-    div .text-university h3::after {
-        font-size: 2rem;
-        font-weight: 300;
-    }
-
-    div .text-university h3 br {
-        max-height: 0;
-    }
-
-    div .text-university p {
-        font-size: 2.4rem;
-        font-weight: 400;
-    }
+    nav .ul-nav a li {}
 
     .container-footer>p {
         font-size: 1.8rem;
@@ -241,6 +282,21 @@ footer img {
         color: var(--bk-header-hover);
         font-size: 2rem;
         padding: 1.5rem 2.2rem;
+    }
+
+    div .text-university h1 {
+        font-size: 4rem;
+        color: var(--bk-header);
+    }
+
+    div .text-university h3 {
+        font-size: 2rem;
+        color: gray;
+        display: none;
+    }
+
+    div .text-university p {
+        display: none;
     }
 
     .menu-hambur {
