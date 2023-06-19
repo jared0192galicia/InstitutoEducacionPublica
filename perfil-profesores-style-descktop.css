@@ -130,7 +130,7 @@ main {
     grid-column-start: 3;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 .container-img-perfil:nth-of-type(2) {
     grid-column-start: 7;
@@ -141,56 +141,62 @@ main {
 .container-img-perfil:nth-of-type(3) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .container-img-perfil:nth-of-type(4) {
     grid-column-start: 7;
     grid-column-end: 11;
-    grid-row-start: 4;
-    grid-row-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .container-img-perfil:nth-of-type(5) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 8;
-    grid-row-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 .container-img-perfil:nth-of-type(6) {
     grid-column-start: 7;
     grid-column-end: 11;
-    grid-row-start: 8;
-    grid-row-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 .container-img-perfil:nth-of-type(7) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 11;
-    grid-row-end: 14;
+    grid-row-start: 7;
+    grid-row-end: 8;
 }
 .container-img-perfil:nth-of-type(8) {
     grid-column-start: 7;
     grid-column-end: 11;
-    grid-row-start: 11;
-    grid-row-end: 14;
+    grid-row-start: 7;
+    grid-row-end: 8;
 }
 .container-img-perfil:nth-of-type(9) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 17;
-    grid-row-end: 20;
+    grid-row-start: 9;
+    grid-row-end: 10;
 }
 .container-img-perfil:nth-of-type(10) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 17;
-    grid-row-end: 20;
+    grid-row-start: 9;
+    grid-row-end: 10;
 }
 .container-img-perfil:nth-of-type(11) {
     grid-column-start: 7;
     grid-column-end: 11;
-    grid-row-start: 17;
-    grid-row-end: 20;
+    grid-row-start: 11;
+    grid-row-end: 12;
+}
+.container-img-perfil:nth-of-type(12) {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 11;
+    grid-row-end: 12;
 }
 .container-img-perfil h2 {
     text-align: center;
