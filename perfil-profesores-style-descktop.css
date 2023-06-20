@@ -116,8 +116,11 @@ main {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(16, 1fr);
     height: 300vh;
+    gap: 1rem;
 }
-
+.container-img-perfil {
+    border: 1px solid rgb(0, 204, 255);
+}
 .elem-grid:first-of-type {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -211,22 +214,20 @@ main {
 .img-perfil {
     max-width: 10vw;
     max-height: 10vw;
-    margin: 0vw 2.5vw;
+    margin: 0 0 1vw 1vw;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 10px;
     border: 1px solid red;
 }
 
-.container-img-perfil .info::before {
-    font-family: 'Font Awesome\ 5 Free';
-    font-size: 2.2rem;
-    color: blue;
-    content: '\f0e0';
-}
-
 .container-img-perfil .contac {
-    color: red;
+    color: black;
+}
+.contac .fa-solid {
+    color: var(--bk-header);
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 .elem-grid:last-of-type {
     grid-column-start: 11;
