@@ -388,16 +388,18 @@ body {
 /* MAIN */
 
 main {
-    height: 100vw;
+    height: 110vw;
 }
+
 main h1 {
     width: auto;
     text-align: center;
     font-size: 3rem;
-    margin: 10vw;
+    margin-bottom: 10vw;
     color: var(--bk-header);
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px var(--bk-header);
 }
+
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -411,6 +413,7 @@ main h1 {
     display: inline;
     background: url("./images/instalaciones/Instituto2.jpg") center;
     background-size: cover;
+    transition: all 2s;
 }
 
 section .wrap {
@@ -425,6 +428,7 @@ section .wrap {
 
 section img {
     max-width: 25vw;
+    transition: all 2s;
 }
 
 section h2 {
@@ -432,11 +436,18 @@ section h2 {
     text-align: center;
 }
 
+.sct-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px black;
+}
+
 section p {
     font-size: 1.5rem;
     text-align: center;
 }
-
+.ul-obj {
+    font-size: 1.5rem;
+}
 .container section:first-of-type {
     grid-column-start: 3;
     grid-column-end: 7;
