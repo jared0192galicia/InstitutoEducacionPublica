@@ -165,11 +165,12 @@ main section:nth-of-type(8) {
 
     picture img {
         max-width: 100vw;
-
     }
+
     section {
         padding: 0 2rem;
     }
+    
     section h2 {
         font-size: 1.8rem;
     }
@@ -182,44 +183,44 @@ main section:nth-of-type(8) {
         grid-column-end: 2;
     }
 
-    main .img-main:first-of-type {
+    main section:first-of-type {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:first-of-type {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:nth-of-type(2) {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:nth-of-type(3) {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:nth-of-type(4) {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:nth-of-type(5) {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:nth-of-type(6) {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
     main section:nth-of-type(7) {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 13;
     }
 
 }
