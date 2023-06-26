@@ -253,7 +253,7 @@ body {
 
 .el:nth-child(1) .el__bg:before {
     transition-delay: 0s;
-    background-image: url('./images/instalaciones/Instituto1.jpg');
+    background-image: url('./../images/instalaciones/Instituto1.jpg');
 }
 
 .el:nth-child(2) {
@@ -277,7 +277,7 @@ body {
 
 .el:nth-child(2) .el__bg::before {
     transition-delay: 0.1s;
-    background-image: url('./images/instalaciones/Instituto-aerea2.jpg');
+    background-image: url('./../images/instalaciones/Instituto-aerea2.jpg');
 }
 
 .el:nth-child(3) {
@@ -301,7 +301,7 @@ body {
 
 .el:nth-child(3) .el__bg::before {
     transition-delay: 0.2s;
-    background-image: url('./images/instalaciones/Instituto3.jpg');
+    background-image: url('./../images/instalaciones/Instituto3.jpg');
 }
 
 .el:nth-child(4) {
@@ -325,7 +325,7 @@ body {
 
 .el:nth-child(4) .el__bg:before {
     transition-delay: 0.3s;
-    background-image: url('./images/instalaciones/Instituto-aerea1.jpg');
+    background-image: url('./../images/instalaciones/Instituto-aerea1.jpg');
 }
 
 .el:nth-child(5) {
@@ -349,7 +349,7 @@ body {
 
 .el:nth-child(5) .el__bg:before {
     transition-delay: 0.4s;
-    background-image: url('./images/instalaciones/Instituto4.jpg');
+    background-image: url('./../images/instalaciones/Instituto4.jpg');
 }
 
 .el:hover .el__bg:after {
@@ -423,14 +423,14 @@ main h2:first-of-type {
 
 .container .sct-img {
     display: inline;
-    background: url("./images/instalaciones/Instituto2.jpg") center;
+    background: url("./../images/instalaciones/Instituto2.jpg") center;
     background-size: cover;
     transition: all 2s;
 }
 
 section .wrap {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     backdrop-filter: blur(10px);
     height: 100%;
@@ -550,7 +550,7 @@ section p {
     grid-column-end: 11;
     grid-row-start: 7;
     grid-row-end: 8;
-    display: none;
+    /* display: none; */
 }
 
 .container section:nth-of-type(14) {

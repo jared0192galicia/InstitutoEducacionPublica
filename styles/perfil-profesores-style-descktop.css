@@ -10,6 +10,7 @@ main {
     grid-template-rows: repeat(38, 1fr);
     height: 800vh;
     row-gap: 5rem;
+    column-gap: 2rem;
 }
 .elem-grid:first-of-type {
     grid-column-start: 1;
@@ -268,27 +269,27 @@ main {
 .container-img-perfil:nth-of-type(39) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-start: 39;
+    grid-row-end: 40;
 }
 .container-img-perfil:nth-of-type(40) {
     grid-column-start: 7;
     grid-column-end: 11;
-    grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-start: 39;
+    grid-row-end: 40;
 }
 
 .container-img-perfil:nth-of-type(41) {
     grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-start: 41;
+    grid-row-end: 42;
 }
 .container-img-perfil:nth-of-type(42) {
     grid-column-start: 7;
     grid-column-end: 11;
-    grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-start: 41;
+    grid-row-end: 42;
 }
 
 .container-img-perfil:nth-of-type(43) {
